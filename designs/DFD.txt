@@ -1,0 +1,9 @@
+Data Flow Diagram
+
+    User provides installer folder/log file.
+    Log Parser processes errors.
+    File Verifier checks integrity and identifies issues.
+    Dependency Checker validates necessary runtimes.
+    Web Search Module fetches repair links.
+    File Repair Module downloads and replaces missing/corrupted files.
+    Tool retries installation or prompts user action.

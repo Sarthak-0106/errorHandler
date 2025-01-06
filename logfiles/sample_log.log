@@ -1,0 +1,6 @@
+[ERROR] Missing file: data/config.ini
+[ERROR] Corrupted file: assets/texture.png
+[INFO] Installation started successfully.
+[ERROR] Dependency error: Missing DirectX Runtime
+[ERROR] Missing file: lib/library.dll
+[WARN] Installation took longer than expected.

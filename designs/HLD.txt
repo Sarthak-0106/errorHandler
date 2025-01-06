@@ -1,0 +1,37 @@
+High-Level Design (HLD)
+
+1. Core Components
+    
+    Error Log Parser
+
+        Extracts meaningful information from installer error logs.
+        Identifies missing files, corrupt files, or dependency errors.
+
+    File Verifier
+
+        Checks integrity via hash verification (e.g., SHA-256).
+        Scans the installer folder for missing/corrupted files.
+
+    Dependency Checker
+
+        Detects if necessary dependencies (DirectX, Visual C++, .NET Framework) are installed.
+        Suggests or automates installation.
+
+    Web Search Module
+
+        Scrapes or searches for required files online.
+        Fetches download links for missing or corrupt files.
+
+    File Repair Module
+
+        Downloads missing/corrupted files.
+        Places them in the correct directory.
+
+    Retry Logic
+
+        Restarts or resumes installation after applying fixes.
+
+    User Interface (CLI for MVP)
+
+        Command-line interface for user interaction.
+        Displays errors, status updates, and suggestions.

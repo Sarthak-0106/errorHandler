@@ -1,0 +1,9 @@
+. Key Libraries (Rust Crates)
+Log Parsing	->  regex, serde
+File I/O	->  std::fs, tokio
+Checksum Verification	->  sha2, blake3
+HTTP Requests	->  reqwest
+Web Scraping	->  scraper
+Dependency Handling	->  std::process::Command
+CLI Interface	->  clap
+Async Handling	->  tokio
