@@ -116,3 +116,5 @@ Invalid line without error type
 
     std::fs::remove_file(test_file).unwrap();
 }
+
+#[test]
